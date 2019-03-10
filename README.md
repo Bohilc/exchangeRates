@@ -16,6 +16,10 @@ Accessories
 
 * `php bin/console app:check:act-nbp` Will be check actualisation NBP (Narodowy Bank Polski)
 * `php bin/console app:clean:cache` clean cache for all application
+* Changes will be logged (var/log/*.log) if data from the NBP will be different than our data np: `...app.INFO: 
+Actualisation data 
+NBP: 
+THB - bat (Tajlandia). From 12 to 0.1209...`
 
 Others
 -------------
