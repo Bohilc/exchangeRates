@@ -10,6 +10,13 @@ Installation
 * You can create database with command:`php bin/console doctrine:database:create` or create database manually.
 * Run this command to create database tables: `php bin/console doctrine:migration:migrate`
 * Last step is set data to database. `php bin/console doctrine:fixtures:load` Data will be added from nbp.pl.
+* Run application: `php bin/console server:run`
+
+Endpoints
+-------------
+* All exchange rate: `http://127.0.0.1:8000/api/exchangerates`
+* One currency `http://127.0.0.1:8000/api/exchangerates/{currency}`
+* Avg currency from all time `http://127.0.0.1:8000/api/exchangerates/avgcurrency/{currency}`
 
 Accessories
 -------------
@@ -20,6 +27,7 @@ Accessories
 Actualisation data 
 NBP: 
 THB - bat (Tajlandia). From 12 to 0.1209...`
+
 
 Others
 -------------
